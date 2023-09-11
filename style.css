@@ -1,6 +1,13 @@
 /*fONT*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Prompt:ital,wght@0,400;0,700;1,100&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --bg: #000000;
     --bg-card: #0E1218;
@@ -9,3 +16,156 @@
     --buttons: #FFF;
     --border-button: #1A1A1A;
   }
+
+  body{
+    font-family: 'Prompt', sans-serif;
+    background-color: var(--bg-card);
+    color: var(--text);
+}
+/*Main*/
+
+.p-compartilhe{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    margin-right: 350px;
+}
+
+#main-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Big Card*/
+#card{
+    width: 438px;
+    height: 693px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*small card*/
+#card-menor{
+    width: 407px;
+    height: 644px;
+    border-radius: 50px;
+    background-color: var(--bg-card);
+}
+
+/*header*/
+header{
+    margin-left: 33.58px;
+    margin-top: 37.78px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-header{
+    width: 55.47px;
+    height: 55.47px;
+    padding: 7px;
+    border: 1px solid #C4C4C4 ;
+    border-radius: 50%;
+}
+
+#name{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/*Photo*/
+#section-photo{
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+    position: relative;
+}
+
+/*infos*/
+#info{
+    list-style: none;
+}
+
+#aside{
+    position: absolute;
+    bottom: 270.48px;
+    margin-left: 21.13px;
+    border: 1px solid white;
+    width: 195.5px;
+    height: 194.7px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #000000, #4645458c, #3e38387c);
+}
+
+#info{
+    margin-top: 29.88px;
+    margin-left: 20.45px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 55px;
+    gap: 10px;
+}
+
+.footer-logo{
+    width: 28px;
+    height: 34.32px;
+}
+
+.footer-name{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*Button*/
+
+#custom-card{
+    margin-left: 146px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-custom{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#btn-background{
+    width: 235px;
+    height: 59.47px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border-button);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#btn-background:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+#btn-background:active{
+transform: translateY(0);
+box-shadow: none;
+}
