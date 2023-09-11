@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <title>Rocketcard</title>
 </head>
 <body>
@@ -14,18 +15,18 @@
                 <div id="card-menor">
                     <header>
                         <img class="logo-header" src="assets/logo.svg" alt="">
-                        <h4 id="name">Wictor Pereiraa</h4>
+                        <h4 id="name">Wictor Pereira</h4>
                     </header>
                     <section id="section-photo">
                         <img id="img-photo" src="assets/image-profile.png" alt="">
                     </section>
                     <aside id="aside">
                         <ul id="info">
-                            <li id="seguidores"> <img src="assets/followers.svg"> 716 Seguidores</li>
-                            <li id="seguindo"> <img src="assets/following.svg"> 193 Seguindo</li>
-                            <li id="repositorios"> <img src="assets/repository.svg"> 38 Repositórios</li>
-                            <li id="compania"> <img src="assets/company.svg"> @Rocketseat</li>
-                            <li id="localizacao"> <img src="assets/location.svg"> Bebedouro</li>
+                            <li id="seguidores"> <img src="assets/followers.svg"> </li>
+                            <li id="seguindo"> <img src="assets/following.svg"> </li>
+                            <li id="repositorios"> <img src="assets/repository.svg"> 3</li>
+                            <li id="compania"> <img src="assets/company.svg"> </li>
+                            <li id="localizacao"> <img src="assets/location.svg"></li>
                         </ul>
                     </aside>
                     <footer class="footer">
@@ -36,10 +37,12 @@
             </div>
             <div id="custom-card">
                 <h5 class="name-custom">Customizar Rocketcard</h5>
-                <button id="btn-background">Gerar background</button>
+                <button id="btn-background" onclick="mudarCor()" >Gerar background</button >
             </div>
         </main>
 
-        <script src="script.js"></script>
+        <script src="gerar-cor.js"></script>
+        <script src="api.js"></script>
+        
 </body>
 </html>

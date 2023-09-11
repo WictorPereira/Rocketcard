@@ -34,7 +34,6 @@
 }
 
 #main-container{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +98,6 @@ header{
     position: absolute;
     bottom: 270.48px;
     margin-left: 21.13px;
-    border: 1px solid white;
     width: 195.5px;
     height: 194.7px;
     border-radius: 50px;
@@ -109,6 +107,7 @@ header{
 #info{
     margin-top: 29.88px;
     margin-left: 20.45px;
+    font-size: 13px;
 }
 
 /*Footer*/
@@ -169,3 +168,5 @@ header{
 transform: translateY(0);
 box-shadow: none;
 }
+
+

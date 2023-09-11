@@ -1,0 +1,106 @@
+@media (max-width: 900px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .p-compartilhe{
+        display: flex;   
+        width: 100%; 
+        font-size: 18px;
+        margin-top: 33px;
+    }
+    #main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #card{
+        width: 338px;
+        height: 593px;
+    }
+
+    #card-menor{
+        width: 307px;
+        height: 544px;
+    }
+
+    header{
+        margin-left: 23.58px;
+        margin-top: 27.78px;
+        gap: 10px;
+    }
+
+    .logo-header{
+        width: 45.47px;
+        height: 45.47px;
+        padding: 5px;
+    }
+
+    #name{
+        font-size: 18px;
+    }
+
+    #section-photo{
+        width: 307px;
+        height: 307px;
+        margin-top: 30px;
+    }
+
+    #aside{
+        bottom: 410.48px;
+        margin-left: 11.13px;
+        width: 165.5px;
+        height: 164.7px;
+    }
+
+    #info{
+        margin-top: 19.88px;
+        margin-left: 10.45px;
+        font-size: 11px;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 20px;
+        margin-top: 85px;
+        gap: 10px;
+    }
+
+    .footer-logo{
+        width: 24px;
+        height: 30.32px;
+    }
+    
+    .footer-name{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*Button*/
+
+#custom-card{
+    margin-left: 0;
+}
+
+.name-custom{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+}
+@media (max-width: 600px) {
+#aside{
+    bottom: 310.48px;
+    margin-left: 11.13px;
+    width: 165.5px;
+    height: 164.7px;
+}
+}
