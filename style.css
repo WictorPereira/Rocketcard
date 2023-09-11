@@ -1,0 +1,11 @@
+/*fONT*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Prompt:ital,wght@0,400;0,700;1,100&display=swap');
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+  }
