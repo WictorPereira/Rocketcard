@@ -2,7 +2,7 @@
 
 ## Sobre o desafio
 
-Neste desafio você deverá desenvolver um card que traga as informações da API do Github e tenha um botão que altere a cor do fundo do card.
+"Neste desafio, desenvolvi um card que traz as informações da API do GitHub e que possui um botão que altera a cor do fundo do card.
 
 ## 🚀 Techs
 
